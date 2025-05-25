@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Salvăm Trotuarele Brașov</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Helvetica', 'Arial', sans-serif;
+            margin: 0;
+            background: #f5f5f5;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            font-size: 16px;
+            line-height: 1.3rem;
+        }
+
+        header {
+            background: #2a5d84;
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            line-height: 2.5rem;
+        }
+
+        header p {
+            margin: 1.5rem 0 0;
+            font-size: 1.2rem;
+        }
+
+        nav {
+            background: #1d3f60;
+            padding: 0.5rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            flex-grow: 1;
+        }
+
+        section {
+            padding: 1rem;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .cta {
+            display: block;
+            padding: 1rem 2rem;
+            background: #008751;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 1rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        footer {
+            background: #eee;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        .comparison-container {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+        .comparison-block {
+            text-align: center;
+            flex: 1;
+
+            img {
+                margin-top: .4rem;
+                max-width: 100%;
+                aspect-ratio: 1 / 1;
+                object-fit: cover;
+                border-radius: 8px;
+            }
+
+            .label {
+                font-weight: bold;
+                font-size: 1.1rem;
+            }
+        }
+
+        .park-example {
+            text-align: center;
+            margin-top: 20px;
+
+            .label {
+                font-weight: bold;
+                font-size: 1.1rem;
+            }
+
+            img {
+                margin-top: .4rem;
+                border-radius: 8px;
+                max-width: 100%;
+            }
+        }
+
+        .message-example {
+            background: #f0f0f0;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .councilors-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+
+            td, th {
+                padding: 0.5rem;
+                border: 1px solid #ddd;
+            }
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            nav a {
+                display: block;
+                margin: 0.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Salvăm Trotuarele din Brașov</h1>
+    <p>Spunem NU transformării trotuarelor în parcări!</p>
+</header>
+
+<nav>
+    <a href="#ce-se-intampla">Ce se întamplă</a>
+    <a href="#de-ce-este-o-problema">De ce este o problemă</a>
+    <a href="#ce-putem-face">Ce putem face</a>
+    <a href="#petitie">Petiție</a>
+</nav>
+
+<main>
+    <section id="ce-se-intampla">
+        <h2>Ce se întamplă?</h2>
+        <p>Primăria Brașov a început să desfiinteze trotuare pentru a creea noi locuri de parcare în spic. Prima astfel de lucrare a inceput pe strada Ștefan Cel Mare în cartierul Scriitorilor. Pentru a obține aproximativ 10 locuri de parcare în plus trotuarul a fost desfiintat.</p>
+        <p>Lucrările sunt executate fără nici un fel de autorizație, fiind încadrate ca reparații însă pe teren este schimbată configurația străzii și a trotuarului.</p>
+
+        <div class="comparison-container">
+            <div class="comparison-block">
+                <div class="label">Înainte</div>
+                <img src="img/before.png" alt="Trotuar Brasov" />
+            </div>
+            <div class="comparison-block">
+                <div class="label">După</div>
+                <img src="img/after.jpg" alt="Trotuar mutialt brasov" />
+            </div>
+        </div>
+        <div class="park-example">
+            <div class="label">Parcările în spic ocupă și spațiu din trotuar deoarece majoritatea șoferilor parchează cu roata la bordură.</div>
+            <img src="img/parcare-la-bordura.jpg" alt="Parcare in spic la bordura">
+        </div>
+    </section>
+
+    <section id="de-ce-este-o-problema">
+        <h2>De ce este o problemă?</h2>
+        <ul>
+            <li>
+                <h3>Este o soluție de compromis pe termen scurt și cu efecte negative pe termen lung</h3>
+                <ul>
+                    <li>Se câștigă câteva locuri de parcare, dar cu prețul <strong>pierderi funcționalității trotuarului</strong> și a unui mediu urban sănătos.</li>
+                    <li>Nu este o soluție sustenabilă la problema parcării — care ar trebui abordată prin <strong>politici inteligente de mobilitate</strong>, nu prin sacrificarea pietonilor.</li>
+                </ul>
+            </li>
+            <li>
+                <h3>Descurajează mersul pe jos și mobilitatea sustenabilă</h3>
+                <ul>
+                    <li>Un trotuar prea îngust transmite indirect mesajul că pietonii nu sunt bineveniți, ceea ce <strong>încurajează
+                        folosirea mașinii</strong> chiar și pentru distanțe scurte.</li>
+                    <li>Acest lucru duce la <strong>congestionare mai mare, poluare și stres urban</strong>.</li>
+                </ul>
+            </li>
+            <li>
+                <h3>Diminuează calitatea vieții în cartiere</h3>
+                <ul>
+                    <li>Un spațiu public confortabil și sigur contribuie la <strong>interacțiuni sociale</strong>, la
+                        <strong>siguranță percepută</strong> și la <strong>atractivitatea zonelor rezidențiale</strong>.</li>
+                    <li>Trotuarele prea înguste distrug ideea de <strong>stradă vie</strong>, transformând spațiile publice în simple canale de trafic auto.</li>
+                </ul>
+            </li>
+            <li>
+                <h3>Discriminează utilizatorii vulnerabili</h3>
+                <ul>
+                    <li>Persoanele <strong>în scaun rulant</strong>, cu <strong>cadru de mers</strong> sau <strong>părinții cu cărucioare</strong> nu pot circula în siguranță și uneori nici nu pot folosi trotuarul deloc.</li>
+                    <li><strong>Standardele de accesibilitate prevăd o lățime minimă de trotuar de 1,5m</strong> pentru a permite trecerea simultană a două persoane sau a unei persoane cu dizabilități.</li>
+                </ul>
+            </li>
+            <li>
+                <h3>Afectează siguranța pietonilor</h3>
+                <ul>
+                    <li><strong>Pietonii sunt forțați să meargă pe carosabil</strong> atunci când se întâlnesc cu alt pieton, un copil, o persoană cu dizabilități sau un cărucior.</li>
+                    <li><strong>Copiii și persoanele în vârstă</strong> sunt expuși unui risc sporit, mai ales în apropierea școlilor sau centrelor comunitare.</li>
+                    <li><strong>Vizibilitatea scăzută</strong> între mașini parcate și carosabil creează riscuri mari de accidente la ieșirea pietonilor dintre vehicule.</li>
+                </ul>
+            </li>
+        </ul>
+        <p>Susține această inițiativă pentru a opri distrugerea trotuarelor din cartierele Brașovului. Fiecare semnătură contează!</p>
+        <a class="cta" href="https://www.change.org/" target="_blank">Semnează Acum</a>
+    </section>
+
+    <section id="ce-putem-face">
+        <h2>Ce putem face</h2>
+        <ul>
+            <li>
+                <h3>Semnează petiția</h3>
+                <p>Fiecare semnătură contează! Ajută-ne să strângem suficiente semnături pentru a opri această practică.</p>
+            </li>
+            <li>
+                <h3>Distribuie informația</h3>
+                <p>Spune și altora despre această problemă. Distribuie pe rețelele sociale, vorbește cu prietenii și familia.</p>
+            </li>
+            <li>
+                <h3>Trimite sesizări către primărie și autrități</h3>
+                <p>Poți trimite sesizări către primărie pentru a-ți exprima opinia și a cere stoparea acestor lucrări pe aplicația MyBrasovCity disponibilă pe Android și IOS sau pe web: <a href="https://www.brasovcity.ro/ro/raportare_incidente" target="_blank" title="Sesizare primaria Brasov">https://www.brasovcity.ro/ro/raportare_incidente</a></p>
+                <p>Sesizează Poliția Locală la telefon <a href="tel:0368004179">0368.004.179</a>, pe email (model sesizare mai jos) <a href="mailto:dispecerat@politialocalabrasov.ro">dispecerat@politialocalabrasov.ro</a> sau folosind <a href="https://politialocalabrasov.ro/contact/formular-sesizari-si-reclamatii/" target="_blank" title="Formular reclamatii Politia Locala Brasov">formularul pentru reclamații</a>.</p>
+                <p>Sesizează Inspectoratul de Stat în Construcții pe email la: <a href="mailto:brasov@isc.gov.ro">brasov@isc.gov.ro</a> (model sesizare mai jos)</p>
+                <h4>Model sesizare</h4>
+                <p>
+                    Subiect: <strong>Sesizare privind îngustarea neconformă a trotuarelor pe strada Ștefan Cel Mare</strong><br>
+                    Mesaj:
+                </p>
+                <p class="message-example">
+                    Subsemnatul(a), [Prenume Nume], cu domiciliul în [adresă completă], vă adresez prezenta sesizare referitoare la o situație care pune în pericol siguranța pietonilor și contravine normelor legale privind amenajarea spațiilor publice.<br><br>
+
+                    În zona [specificați strada sau cartierul], trotuarele au fost îngustate semnificativ ca urmare a reamenajării spațiului stradal în favoarea locurilor de parcare.<br><br>
+
+                    Această situație încalcă prevederile legale în vigoare, inclusiv:<br>
+                    - Normativul NP 051-2012 privind adaptarea clădirilor și spațiilor publice la nevoile persoanelor cu handicap, care prevede o lățime minimă de 1,5 m pentru trotuare accesibile;<br>
+                    - Legea 448/2006 privind protecția și promovarea drepturilor persoanelor cu handicap, care stipulează obligația autorităților de a asigura accesul neîngrădit și sigur în spațiul public;<br>
+                    - Codul Rutier, care prevede obligativitatea asigurării siguranței circulației pietonale în orice zonă rezidențială.<br><br>
+
+                    Totodată, îngustarea trotuarelor fără asigurarea unei alternative sigure pentru pietoni contravine principiilor de urbanism funcțional și creează un risc real de accidente, fiind deja semnalate cazuri în care pietoni au fost obligați să circule pe carosabil din lipsă de spațiu.<br><br>
+
+                    Solicit:<br>
+                    - Verificarea legalității intervenției asupra trotuarelor din zona menționată;<br>
+                    - Aplicarea măsurilor legale în cazul în care s-au constatat nereguli privind respectarea normativelor de urbanism și accesibilitate;<br>
+                    - Asigurarea unei lățimi minime conforme cu prevederile legale pentru circulația pietonală în siguranță.<br><br>
+
+                    Vă mulțumesc anticipat pentru intervenție și aștept un răspuns oficial privind măsurile întreprinse.<br><br>
+
+                    Cu stimă,<br>
+                    [Prenume Nume]<br>
+                    [Telefon]<br>
+                    [Email]<br>
+                    [Semnătura – dacă se trimite fizic]<br>
+                    [Data]
+                </p>
+            </li>
+            <li>
+                <h3>Scrie-le aleșilor locali</h3>
+                <p>Viceprimarul Lucian Pătrașcu este cel care și-a asumat aceste lucrări după cum a comunicat pe <a href="https://www.facebook.com/lucian.patrascu.39/" target="_blank">pagina
+                    sa de facebook</a> și <a href="https://bzb.ro/stire/solutia-redesenarea-strazii-pentru-mai-multe-locuri-de-parcare-s-a-inceput-cu-strada-stefan-cel-mare-de-la-25-la-40-a209219" target="_blank" title="Articol ingustare trotuare pentru parcari">în presa locală</a>. Scrie-i și spune-i părerea ta. Email: <a href="mailto:lucian.patrascu@brasovcity.ro">lucian.patrascu@brasovcity.ro</a> Mai jos aveți un exemplu de formulare.</p>
+                <p>Scrie-le consilierilor locali. Ei au posibilitatea de a face interpelări către executivul primăriei. Mai jos aveți lista consilierilor locali și adresele lor de email.</p>
+
+                <div>
+                    Subiect: <strong>Stoparea îngustării trotuarelor pentru parcări</strong><br>
+                    Mesaj:<br>
+                    <p class="message-example">
+                        Vă adresez această solicitare în calitate de cetățean preocupat de siguranța și calitatea vieții în cartierul nostru. Doresc să atrag atenția asupra practicii de îngustare excesivă a trotuarelor în zonele rezidențiale, cu scopul de a crea mai multe locuri de parcare.<br><br>
+
+                        Această abordare afectează în mod direct siguranța pietonilor, în special a copiilor, persoanelor vârstnice și a celor cu dizabilități. Trotuarele care permit trecerea unui singur pieton nu mai îndeplinesc funcția de spațiu public accesibil și sigur. În lipsa unui minim de 1,5 metri lățime, așa cum recomandă normele de accesibilitate, pietonii sunt adesea forțați să pășească pe carosabil, expunându-se riscului de accidente.<br><br>
+
+                        Mai mult, o infrastructură pietonală precară descurajează mersul pe jos, afectând negativ sănătatea, coeziunea socială și caracterul prietenos al cartierului. Prioritizarea parcărilor în detrimentul pietonilor este o soluție de compromis pe termen scurt, dar cu efecte urbane grave și durabile.<br><br>
+
+                        Vă rugăm să reanalizați astfel de proiecte de reamenajare și să luați în considerare un echilibru corect între nevoile pietonilor, ale bicicliștilor și ale șoferilor, în spiritul unui oraș modern, incluziv și sigur pentru toți.<br><br>
+
+                        Cu respect,<br>
+                        [Prenume Nume]<br>
+                        [Adresă / cartier (opțional)]<br>
+                        [Data]
+                    </p>
+                </div>
+
+                <table class="councilors-table">
+                    <thead>
+                    <tr>
+                        <th>Nume Consilier</th>
+                        <th>Email</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr><td>Lucian PATRASCU</td><td><a href="mailto:Lucian.PATRASCU@brasovcity.ro">Lucian.PATRASCU@brasovcity.ro</a></td></tr>
+                    <tr><td>Raluca STANCU</td><td><a href="mailto:raluca.stancu@brasovcity.ro">raluca.stancu@brasovcity.ro</a></td></tr>
+                    <tr><td>Adrian CODREANU</td><td><a href="mailto:Adrian.CODREANU@brasovcity.ro">Adrian.CODREANU@brasovcity.ro</a></td></tr>
+                    <tr><td>Alexandra CRIVINEANU</td><td><a href="mailto:Alexandra.CRIVINEANU@brasovcity.ro">Alexandra.CRIVINEANU@brasovcity.ro</a></td></tr>
+                    <tr><td>Dan GHITA</td><td><a href="mailto:Dan.GHITA@brasovcity.ro">Dan.GHITA@brasovcity.ro</a></td></tr>
+                    <tr><td>Sorin BASCA</td><td><a href="mailto:Sorin.BASCA@brasovcity.ro">Sorin.BASCA@brasovcity.ro</a></td></tr>
+                    <tr><td>Ciprian CHIRICHES</td><td><a href="mailto:Ciprian.Chiriches@brasovcity.ro">Ciprian.Chiriches@brasovcity.ro</a></td></tr>
+                    <tr><td>Catalin ANTON</td><td><a href="mailto:Catalin.ANTON@brasovcity.ro">Catalin.ANTON@brasovcity.ro</a></td></tr>
+                    <tr><td>Ioana HENEGAR</td><td><a href="mailto:Ioana.HENEGAR@brasovcity.ro">Ioana.HENEGAR@brasovcity.ro</a></td></tr>
+                    <tr><td>Pamela DIACONU</td><td><a href="mailto:Pamela.DIACONU@brasovcity.ro">Pamela.DIACONU@brasovcity.ro</a></td></tr>
+                    <tr><td>Costel MIHAI</td><td><a href="mailto:Costel.MIHAI@brasovcity.ro">Costel.MIHAI@brasovcity.ro</a></td></tr>
+                    <tr><td>Cristina TIMARIU</td><td><a href="mailto:Cristina.TIMARIU@brasovcity.ro">Cristina.TIMARIU@brasovcity.ro</a></td></tr>
+                    <tr><td>Horațiu BALAZS</td><td><a href="mailto:horatiu.balazs@brasovcity.ro">horatiu.balazs@brasovcity.ro</a></td></tr>
+                    <tr><td>Sebastian LUPU</td><td><a href="mailto:Sebastian.LUPU@brasovcity.ro">Sebastian.LUPU@brasovcity.ro</a></td></tr>
+                    <tr><td>Olivia GRIGORIU</td><td><a href="mailto:Olivia.GRIGORIU@brasovcity.ro">Olivia.GRIGORIU@brasovcity.ro</a></td></tr>
+                    <tr><td>Tibi NECULAESCU</td><td><a href="mailto:Tibi.NECULAESCU@brasovcity.ro">Tibi.NECULAESCU@brasovcity.ro</a></td></tr>
+                    <tr><td>Ilinca GHIZA</td><td><a href="mailto:Ilinca.GHIZA@brasovcity.ro">Ilinca.GHIZA@brasovcity.ro</a></td></tr>
+                    <tr><td>Ciprian IFTIME</td><td><a href="mailto:Ciprian.IFTIME@brasovcity.ro">Ciprian.IFTIME@brasovcity.ro</a></td></tr>
+                    <tr><td>Radu CENTIU</td><td><a href="mailto:Radu.CENTIU@brasovcity.ro">Radu.CENTIU@brasovcity.ro</a></td></tr>
+                    <tr><td>Alexandru GHEORGHE</td><td><a href="mailto:Alexandru.GHEORGHE@brasovcity.ro">Alexandru.GHEORGHE@brasovcity.ro</a></td></tr>
+                    <tr><td>George BORODA</td><td><a href="mailto:george.boroda@brasovcity.ro">george.boroda@brasovcity.ro</a></td></tr>
+                    <tr><td>Beatrice MORARU</td><td><a href="mailto:Beatrice.MORARU@brasovcity.ro">Beatrice.MORARU@brasovcity.ro</a></td></tr>
+                    <tr><td>Sebastian ICHIM</td><td><a href="mailto:Sebastian.Ichim@brasovcity.ro">Sebastian.Ichim@brasovcity.ro</a></td></tr>
+                    <tr><td>Daniel DIMITRESCU</td><td><a href="mailto:Daniel.DIMITRESCU@brasovcity.ro">Daniel.DIMITRESCU@brasovcity.ro</a></td></tr>
+                    <tr><td>Dan GRIGORESCU</td><td><a href="mailto:Dan.GRIGORESCU@brasovcity.ro">Dan.GRIGORESCU@brasovcity.ro</a></td></tr>
+                    <tr><td>Gheorghe COJOCARU</td><td><a href="mailto:Gheorghe.COJOCARU@brasovcity.ro">Gheorghe.COJOCARU@brasovcity.ro</a></td></tr>
+                    <tr><td>Vasile MEZDREA</td><td><a href="mailto:Vasile.MEZDREA@brasovcity.ro">Vasile.MEZDREA@brasovcity.ro</a></td></tr>
+                    </tbody>
+                </table>
+            </li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    © 2025 Salvăm Trotuarele Brașov. Toate drepturile rezervate.
+</footer>
+
+</body>
+</html>
